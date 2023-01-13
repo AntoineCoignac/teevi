@@ -286,6 +286,11 @@ p.promo{
     .selection h1{
         font-size: 26px;
     }
+
+    .delete {
+        visibility: visible;
+        opacity: 1;
+    }
     
 }
 
@@ -298,6 +303,10 @@ p.promo{
         justify-content: space-between;
         padding: 0 16px;
         box-sizing: border-box;
+    }
+
+    .selection{
+        width: calc(100% - 32px);
     }
 
     .bar:hover .search, .search:focus {
